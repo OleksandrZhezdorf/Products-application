@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://media.istockphoto.com/photos/white-brick-wall-seamless-texture-picture-id910925798");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+.App {
+  text-align: center;
+}
+
+.title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.search__input {
+  border: solid 2px gray;
+}
+
+.table-products {
+  text-align: center;
+  margin: 20px auto;
+  border: solid 3px black;
+  padding: 10px;
+  width: 80%;
+}
+
+.product-line {
+  border: solid 1px black;
+}
+
+.product-example {
+  border: solid 1px black;
+  margin: 0px;
+}
+
+.pagination {
+  margin: 0 auto;
+  margin-left: 10%;
+}
+
+.page-item {
+  margin-right: 5px;
+}
+
